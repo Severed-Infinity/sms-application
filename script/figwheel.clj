@@ -9,7 +9,8 @@
                      [{:id           "dev"
                        :figwheel     true
                        :source-paths ["src"]
-                       :compiler     {:main       'om-tutorial.core
+                       :compiler     {:main
+                                                  'sms-application.web-view
                                       :asset-path "js"
                                       :output-to  "resources/public/js/main.js"
                                       :output-dir "resources/public/js"

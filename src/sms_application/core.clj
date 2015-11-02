@@ -1,4 +1,4 @@
-(ns sms-application.core_copy
+(ns sms-application.core
   (:gen-class)
   (:require
     [org.httpkit.server :as server]

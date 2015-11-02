@@ -1,4 +1,4 @@
-(ns om-tutorial.core
+(ns sms-application.web-view
   (:require [goog.dom :as gdom]
             [om.next :as om :refer-macros [defui]]
             [om.dom :as dom]))
@@ -40,7 +40,8 @@
   Object
   (render [this]
     (dom/form nil
-      (dom/input #js {:type "text"})
+      (dom/label #js {:for "message"} "Message")
+      (dom/input #js {:type "text" :id "message"})
       (dom/button #js {:type "submit"} "Send."))))
 
 (om/add-root! reconciler MessageInput (gdom/getElement "app"))
