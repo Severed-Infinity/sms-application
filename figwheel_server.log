@@ -521,3 +521,56 @@ notifying browser that file changed:  /sms_application/web_view.js
 WARNING: Required namespace not provided for om-tutorial.core
 [32mSuccessfully compiled "resources/public/js/main.js" in 0.099 seconds.[0m
 notifying browser that file changed:  /sms_application/web_view.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/sms_application/web_view.cljs
+WARNING: Required namespace not provided for om-tutorial.core
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.812 seconds.[0m
+notifying browser that file changed:  /sms_application/web_view.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+WARNING: Required namespace not provided for om-tutorial.core
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.096 seconds.[0m
+notifying browser that file changed:  /sms_application/web_view.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.15 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /sms_application/web_view.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/sms_application/web_view.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.798 seconds.[0m
+notifying browser that file changed:  /sms_application/web_view.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: await already refers to: #'clojure.core/await in namespace: co.paralleluniverse.fiber.httpkit.client, being replaced by: #'co.paralleluniverse.pulsar.core/await
+WARNING: get already refers to: #'clojure.core/get in namespace: co.paralleluniverse.fiber.httpkit.client, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+[32mSuccessfully compiled "resources/public/js/main.js" in 12.125 seconds.[0m
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.418 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /sms_application/web_view.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/sms_application/web_view.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.417 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /sms_application/web_view.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/sms_application/web_view.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.427 seconds.[0m
+notifying browser that file changed:  /sms_application/web_view.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/sms_application/web_view.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 1.252 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /sms_application/web_view.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/sms_application/web_view.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.42 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /sms_application/web_view.js

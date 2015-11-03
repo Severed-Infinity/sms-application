@@ -2,18 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb35e450-fe66-4412-8c2f-6f3b818b9b5f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sms_application/core.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sms_application/web_view.clj" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sms_application/core_copy.clj" afterPath="$PROJECT_DIR$/src/sms_application/core.clj" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om_tutorial/core.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om_tutorial/core.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om_tutorial/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om_tutorial/core.js.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async.cljs.cache.edn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/buffers.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/buffers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next/cache.js.map" afterPath="$PROJECT_DIR$/resources/public/js/om/next/cache.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next/cache.js" afterPath="$PROJECT_DIR$/resources/public/js/om/next/cache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.cljs.cache.edn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client.cljs.cache.edn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client.js.map" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client.js" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs_deps.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs_deps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om_tutorial/core.cljs" afterPath="$PROJECT_DIR$/resources/public/js/om_tutorial/core.cljs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om_tutorial/core.js.map" afterPath="$PROJECT_DIR$/resources/public/js/om_tutorial/core.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om_tutorial/core.js" afterPath="$PROJECT_DIR$/resources/public/js/om_tutorial/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/sms_application/core_test.clj" afterPath="$PROJECT_DIR$/test/sms_application/core_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/connect.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/connect.cljs.cache.edn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/connect.cljs" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/connect.cljs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/connect.js" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/connect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sms_application/core.clj" afterPath="$PROJECT_DIR$/src/sms_application/core.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/dispatch.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/dispatch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/dom.js.map" afterPath="$PROJECT_DIR$/resources/public/js/om/dom.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/dom.js" afterPath="$PROJECT_DIR$/resources/public/js/om/dom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/figwheel.clj" afterPath="$PROJECT_DIR$/script/figwheel.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/figwheel_server.log" afterPath="$PROJECT_DIR$/figwheel_server.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.cljs.cache.edn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.js.map" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.js" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.cljs.cache.edn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.js.map" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.js" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.cljs.cache.edn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/main.js" afterPath="$PROJECT_DIR$/resources/public/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/om/next.cljs.cache.edn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next.js.map" afterPath="$PROJECT_DIR$/resources/public/js/om/next.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next.js" afterPath="$PROJECT_DIR$/resources/public/js/om/next.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.cljc.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.cljc.cache.edn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.js.map" afterPath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.js" afterPath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/pprint.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/cljs/pprint.cljs.cache.edn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/pprint.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/pprint.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/pprint.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/pprint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/protocols.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/protocols.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/protocols.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/protocols.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/reader.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/reader.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/reader.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/reader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/repl.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/repl.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/repl.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/repl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/clojure/set.js.map" afterPath="$PROJECT_DIR$/resources/public/js/clojure/set.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/clojure/set.js" afterPath="$PROJECT_DIR$/resources/public/js/clojure/set.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.cljs.cache.edn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.js.map" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.js" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/clojure/string.js.map" afterPath="$PROJECT_DIR$/resources/public/js/clojure/string.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/clojure/string.js" afterPath="$PROJECT_DIR$/resources/public/js/clojure/string.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/timers.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/timers.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/timers.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/timers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.cljs.cache.edn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.js.map" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.js" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/clojure/walk.js.map" afterPath="$PROJECT_DIR$/resources/public/js/clojure/walk.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/clojure/walk.js" afterPath="$PROJECT_DIR$/resources/public/js/clojure/walk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.cljs.cache.edn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.cljs" afterPath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.cljs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sms_application/web_view.cljs" afterPath="$PROJECT_DIR$/src/sms_application/web_view.cljs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.js.map" afterPath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.js" afterPath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/clojure/zip.js.map" afterPath="$PROJECT_DIR$/resources/public/js/clojure/zip.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/clojure/zip.js" afterPath="$PROJECT_DIR$/resources/public/js/clojure/zip.js" />
     </list>
     <ignored path="sms-application.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/src/sms_application/core.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -48,8 +110,8 @@
       <file leaf-file-name="web_view.cljs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sms_application/web_view.cljs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.38543516">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7868561">
+              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -69,7 +131,27 @@
         <entry file="file://$PROJECT_DIR$/script/figwheel.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component.cljc" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/stuartsierra/component/0.3.0/component-0.3.0.jar!/com/stuartsierra/component.cljc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="191" column="6" selection-start-line="191" selection-start-column="6" selection-end-line="191" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="repl_api.clj" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/figwheel-sidecar/figwheel-sidecar/0.4.0/figwheel-sidecar-0.4.0.jar!/figwheel_sidecar/repl_api.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -98,12 +180,13 @@
         <option value="$PROJECT_DIR$/test/sms_application/core_test.clj" />
         <option value="$PROJECT_DIR$/src/sms_application/web_view.clj" />
         <option value="$PROJECT_DIR$/project.clj" />
-        <option value="$PROJECT_DIR$/src/script/figwheel.clj" />
         <option value="$PROJECT_DIR$/resources/public/index.html" />
         <option value="$PROJECT_DIR$/src/sms_application/core_copy.clj" />
-        <option value="$PROJECT_DIR$/src/sms_application/core.clj" />
-        <option value="$PROJECT_DIR$/script/figwheel.clj" />
         <option value="$PROJECT_DIR$/src/sms_application/core.cljs" />
+        <option value="$PROJECT_DIR$/script/figwheel.clj" />
+        <option value="$PROJECT_DIR$/src/sms_application/core.clj" />
+        <option value="$PROJECT_DIR$/src/script/figwheel.clj" />
+        <option value="$PROJECT_DIR$/src/sms_application/web_view.cljs" />
       </list>
     </option>
   </component>
@@ -271,24 +354,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sms-application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sms-application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -302,7 +367,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/../../../Development/Libraries/Java" />
@@ -319,6 +384,7 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -706,22 +772,22 @@
       <workItem from="1446481755124" duration="330000" />
       <workItem from="1446491750253" duration="1040000" />
       <workItem from="1446492960943" duration="1298000" />
-      <workItem from="1446495203997" duration="5981000" />
+      <workItem from="1446495203997" duration="11094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10740000" />
+    <option name="totallyTimeSpent" value="15853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="510" y="23" width="1170" height="974" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Issues" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.50238097" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5034188" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3" sideWeight="0.51945853" order="3" side_tool="true" content_ui="tabs" />
@@ -743,8 +809,8 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32764506" sideWeight="0.49761903" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22991453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32764506" sideWeight="0.4965812" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22991453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -847,14 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9411764">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/omcljs/om/1.0.0-alpha14/om-1.0.0-alpha14.jar!/om/next.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5843694">
@@ -871,18 +929,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sms_application/core.clj">
+    <entry file="file://$PROJECT_DIR$/resources/public/js/sms_application/web_view.cljs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.41207814">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/figwheel.clj">
+    <entry file="file://$PROJECT_DIR$/resources/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9411764">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/figwheel-sidecar/figwheel-sidecar/0.4.0/figwheel-sidecar-0.4.0.jar!/figwheel_sidecar/repl_api.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/stuartsierra/component/0.3.0/component-0.3.0.jar!/com/stuartsierra/component.cljc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="191" column="6" selection-start-line="191" selection-start-column="6" selection-end-line="191" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -895,10 +969,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/script/figwheel.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sms_application/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sms_application/web_view.cljs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.38543516">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7868561">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
           <folding />
         </state>
       </provider>

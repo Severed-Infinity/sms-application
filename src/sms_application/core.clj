@@ -30,5 +30,8 @@
                                             channel data)
                                  ))))
 
-(defn -main []
+(defn launch-server []
   (reset! server (server/run-server #'handler {:port 8080})))
+
+(defn -main []
+  launch-server)
