@@ -13,8 +13,10 @@
                        :compiler     {:main
                                                   'sms-application.web-view
                                       :asset-path "js"
-                                      :output-to  "resources/public/js/main.js"
-                                      :output-dir "resources/public/js"
+                                      :output-to
+                                                  "resources/public/js/main.js"
+                                      :output-dir
+                                                  "resources/public" ;should always be this
                                       :verbose    true}}]})
 
 (defrecord Figwheel []

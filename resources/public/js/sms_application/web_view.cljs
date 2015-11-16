@@ -40,9 +40,11 @@
   Object
   (render [this]
     (dom/form #js {:method "post"}
+      (dom/p nil "welcome to hell.")
       (dom/label #js {:htmlFor "message"} "Message ")
       (dom/input #js {:type "text" :id "message" :name
                             "message"})
-      (dom/button #js {:type "submit"} "Send."))))
+      (dom/button #js {:type "submit"} "Send
+                                   ."))))
 
 (om/add-root! reconciler MessageInput (gdom/getElement "app"))

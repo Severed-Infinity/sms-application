@@ -574,3 +574,784 @@ Compiling src/sms_application/web_view.cljs
 [32mSuccessfully compiled "resources/public/js/main.js" in 0.42 seconds.[0m
 notifying browser that file changed:  resources/public/js/cljs_deps.js
 notifying browser that file changed:  /sms_application/web_view.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:target/figwheel_temp/dev/figwheel/connect.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3161.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:486)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    cljs.closure$eval3618$fn__3619.invoke (closure.clj:500)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:target/figwheel_temp/dev/figwheel/connect.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3161.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:486)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    cljs.closure$eval3618$fn__3619.invoke (closure.clj:500)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:target/figwheel_temp/dev/figwheel/connect.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3161.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:486)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    cljs.closure$eval3618$fn__3619.invoke (closure.clj:500)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:target/figwheel_temp/dev/figwheel/connect.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3161.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:486)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    cljs.closure$eval3618$fn__3619.invoke (closure.clj:500)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.172 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /sms_application/web_view.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: await already refers to: #'clojure.core/await in namespace: co.paralleluniverse.fiber.httpkit.client, being replaced by: #'co.paralleluniverse.pulsar.core/await
+WARNING: get already refers to: #'clojure.core/get in namespace: co.paralleluniverse.fiber.httpkit.client, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+[32mSuccessfully compiled "resources/public/js/main.js" in 8.87 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.802 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.ClassNotFoundException: compojure.handler, compiling:(sms_application/core.clj:22:3)
+ at clojure.lang.Compiler.analyzeSeq (Compiler.java:6730)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler.eval (Compiler.java:6786)
+    clojure.lang.Compiler.load (Compiler.java:7227)
+    clojure.lang.RT.loadResourceScript (RT.java:371)
+    clojure.lang.RT.loadResourceScript (RT.java:362)
+    clojure.lang.RT.load (RT.java:446)
+    clojure.lang.RT.load (RT.java:412)
+    clojure.core$load$fn__5448.invoke (core.clj:5866)
+    clojure.core$load.doInvoke (core.clj:5865)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojurescript_build.core$reload_lib.invoke (core.clj:46)
+    clojurescript_build.core$handle_source_reloading_STAR_.invoke (core.clj:139)
+    clojurescript_build.core$handle_source_reloading.invoke (core.clj:145)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:158)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.ClassNotFoundException: ring.defaults, compiling:(sms_application/core.clj:22:3)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler.eval (Compiler.java:6786)
+    clojure.lang.Compiler.load (Compiler.java:7227)
+    clojure.lang.RT.loadResourceScript (RT.java:371)
+    clojure.lang.RT.loadResourceScript (RT.java:362)
+    clojure.lang.RT.load (RT.java:446)
+    clojure.lang.RT.load (RT.java:412)
+    clojure.core$load$fn__5448.invoke (core.clj:5866)
+    clojure.core$load.doInvoke (core.clj:5865)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojurescript_build.core$reload_lib.invoke (core.clj:46)
+    clojurescript_build.core$handle_source_reloading_STAR_.invoke (core.clj:139)
+    clojurescript_build.core$handle_source_reloading.invoke (core.clj:145)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:158)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.Compiler$CompilerException: clojure.lang.ArityException: Wrong number of args (0) passed to: core/routes/fn--14955, compiling:(core.clj:22:3)
+ at clojure.lang.Compiler$InvokeExpr.eval (Compiler.java:3628)
+    clojure.lang.Compiler$DefExpr.eval (Compiler.java:439)
+    clojure.lang.Compiler.eval (Compiler.java:6787)
+    clojure.lang.Compiler.load (Compiler.java:7227)
+    clojure.lang.RT.loadResourceScript (RT.java:371)
+    clojure.lang.RT.loadResourceScript (RT.java:362)
+    clojure.lang.RT.load (RT.java:446)
+    clojure.lang.RT.load (RT.java:412)
+    clojure.core$load$fn__5448.invoke (core.clj:5866)
+    clojure.core$load.doInvoke (core.clj:5865)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojurescript_build.core$reload_lib.invoke (core.clj:46)
+    clojurescript_build.core$handle_source_reloading_STAR_.invoke (core.clj:139)
+    clojurescript_build.core$handle_source_reloading.invoke (core.clj:145)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:158)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.606 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.525 seconds.[0m
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.137 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /sms_application/web_view.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/sms_application/web_view.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.736 seconds.[0m
+notifying browser that file changed:  /sms_application/web_view.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/sms_application/web_view.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+ERROR: Map literal must contain an even number of forms on file /Volumes/My Passport for Mac/It-Tallaght/Project - Year 4/sms-application/src/sms_application/web_view.cljs, line 47, column 35
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/sms_application/web_view.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.646 seconds.[0m
+notifying browser that file changed:  /sms_application/web_view.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/sms_application/web_view.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.699 seconds.[0m
+notifying browser that file changed:  /sms_application/web_view.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/figwheel/figwheel/0.4.0/figwheel-0.4.0.jar!/figwheel/client.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/core.async/0.1.346.0-17112a-alpha/core.async-0.1.346.0-17112a-alpha.jar!/cljs/core/async.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/core.async/0.1.346.0-17112a-alpha/core.async-0.1.346.0-17112a-alpha.jar!/cljs/core/async/impl/channels.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/core.async/0.1.346.0-17112a-alpha/core.async-0.1.346.0-17112a-alpha.jar!/cljs/core/async/impl/dispatch.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/core.async/0.1.346.0-17112a-alpha/core.async-0.1.346.0-17112a-alpha.jar!/cljs/core/async/impl/buffers.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/core.async/0.1.346.0-17112a-alpha/core.async-0.1.346.0-17112a-alpha.jar!/cljs/core/async/impl/protocols.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/core.async/0.1.346.0-17112a-alpha/core.async-0.1.346.0-17112a-alpha.jar!/cljs/core/async/impl/ioc_helpers.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/core.async/0.1.346.0-17112a-alpha/core.async-0.1.346.0-17112a-alpha.jar!/cljs/core/async/impl/timers.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/figwheel/figwheel/0.4.0/figwheel-0.4.0.jar!/figwheel/client/file_reloading.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/clojurescript/1.7.145/clojurescript-1.7.145.jar!/clojure/set.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/figwheel/figwheel/0.4.0/figwheel-0.4.0.jar!/figwheel/client/utils.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/clojurescript/1.7.145/clojurescript-1.7.145.jar!/clojure/string.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/clojurescript/1.7.145/clojurescript-1.7.145.jar!/cljs/repl.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/figwheel/figwheel/0.4.0/figwheel-0.4.0.jar!/figwheel/client/heads_up.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/figwheel/figwheel/0.4.0/figwheel-0.4.0.jar!/figwheel/client/socket.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/clojurescript/1.7.145/clojurescript-1.7.145.jar!/cljs/reader.cljs
+Compiling src/sms_application/web_view.cljs
+WARNING: Use of undeclared Var sms-application.web-view/print-message at line 48 src/sms_application/web_view.cljs
+WARNING: Use of undeclared Var sms-application.web-view/message at line 48 src/sms_application/web_view.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/sms_application/web_view.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3161.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:486)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    cljs.closure$eval3618$fn__3619.invoke (closure.clj:500)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: await already refers to: #'clojure.core/await in namespace: co.paralleluniverse.fiber.httpkit.client, being replaced by: #'co.paralleluniverse.pulsar.core/await
+WARNING: get already refers to: #'clojure.core/get in namespace: co.paralleluniverse.fiber.httpkit.client, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+Compiling src/sms_application/web_view.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/sms_application/web_view.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3161.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:486)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    cljs.closure$eval3618$fn__3619.invoke (closure.clj:500)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+Compiling src/sms_application/web_view.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/sms_application/web_view.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3161.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:486)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    cljs.closure$eval3618$fn__3619.invoke (closure.clj:500)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/figwheel/figwheel/0.4.0/figwheel-0.4.0.jar!/figwheel/client.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/core.async/0.1.346.0-17112a-alpha/core.async-0.1.346.0-17112a-alpha.jar!/cljs/core/async.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/core.async/0.1.346.0-17112a-alpha/core.async-0.1.346.0-17112a-alpha.jar!/cljs/core/async/impl/channels.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/core.async/0.1.346.0-17112a-alpha/core.async-0.1.346.0-17112a-alpha.jar!/cljs/core/async/impl/dispatch.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/core.async/0.1.346.0-17112a-alpha/core.async-0.1.346.0-17112a-alpha.jar!/cljs/core/async/impl/buffers.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/core.async/0.1.346.0-17112a-alpha/core.async-0.1.346.0-17112a-alpha.jar!/cljs/core/async/impl/protocols.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/core.async/0.1.346.0-17112a-alpha/core.async-0.1.346.0-17112a-alpha.jar!/cljs/core/async/impl/ioc_helpers.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/core.async/0.1.346.0-17112a-alpha/core.async-0.1.346.0-17112a-alpha.jar!/cljs/core/async/impl/timers.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/figwheel/figwheel/0.4.0/figwheel-0.4.0.jar!/figwheel/client/file_reloading.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/clojurescript/1.7.145/clojurescript-1.7.145.jar!/clojure/set.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/figwheel/figwheel/0.4.0/figwheel-0.4.0.jar!/figwheel/client/utils.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/figwheel/figwheel/0.4.0/figwheel-0.4.0.jar!/figwheel/client/heads_up.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/figwheel/figwheel/0.4.0/figwheel-0.4.0.jar!/figwheel/client/socket.cljs
+Analyzing jar:file:/Users/davidswift/.m2/repository/org/clojure/clojurescript/1.7.145/clojurescript-1.7.145.jar!/cljs/reader.cljs
+Compiling src/sms_application/web_view.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/sms_application/web_view.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3161.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:486)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    cljs.closure$eval3618$fn__3619.invoke (closure.clj:500)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: await already refers to: #'clojure.core/await in namespace: co.paralleluniverse.fiber.httpkit.client, being replaced by: #'co.paralleluniverse.pulsar.core/await
+WARNING: get already refers to: #'clojure.core/get in namespace: co.paralleluniverse.fiber.httpkit.client, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+Compiling src/sms_application/web_view.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/sms_application/web_view.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3161.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:486)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    cljs.closure$eval3618$fn__3619.invoke (closure.clj:500)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+Compiling src/sms_application/web_view.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+ERROR: Invalid token: om/ on file /Volumes/My Passport for Mac/It-Tallaght/Project - Year 4/sms-application/src/sms_application/web_view.cljs, line 39, column 5
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+Compiling src/sms_application/web_view.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/sms_application/web_view.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3161.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:486)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    cljs.closure$eval3618$fn__3619.invoke (closure.clj:500)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+Compiling src/sms_application/web_view.cljs
+WARNING: Bad method signature in protocol implementation, object does not declare method called dom/render at line 40 src/sms_application/web_view.cljs
+WARNING: Use of undeclared Var sms-application.web-view/object at line 40 src/sms_application/web_view.cljs
+WARNING: Symbol object is not a protocol at line 40 src/sms_application/web_view.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/sms_application/web_view.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3161.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:486)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    cljs.closure$eval3618$fn__3619.invoke (closure.clj:500)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+Compiling src/sms_application/web_view.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/sms_application/web_view.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3161.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:486)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    cljs.closure$eval3618$fn__3619.invoke (closure.clj:500)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+Compiling src/sms_application/web_view.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/sms_application/web_view.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3161.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:486)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    cljs.closure$eval3618$fn__3619.invoke (closure.clj:500)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: get already refers to: #'clojure.core/get in namespace: sms-application.core, being replaced by: #'co.paralleluniverse.fiber.httpkit.client/get
+Compiling src/sms_application/web_view.cljs
+WARNING: Use of undeclared Var sms-application.web-view/defui at line 39 src/sms_application/web_view.cljs
+WARNING: Use of undeclared Var sms-application.web-view/MessageInput at line 39 src/sms_application/web_view.cljs
+WARNING: Use of undeclared Var sms-application.web-view/Object at line 40 src/sms_application/web_view.cljs
+WARNING: Use of undeclared Var sms-application.web-view/this at line 41 src/sms_application/web_view.cljs
+WARNING: Use of undeclared Var sms-application.web-view/MessageInput at line 50 src/sms_application/web_view.cljs
+Compiling resources/public/om/dom.cljs
+Compiling resources/public/om/next.cljs
+Compiling resources/public/clojure/walk.cljs
+Compiling resources/public/om/next/protocols.cljs
+Compiling resources/public/om/next/impl/parser.cljc
+Compiling resources/public/clojure/zip.cljs
+Compiling resources/public/om/next/cache.cljs
+Compiling resources/public/figwheel/client/utils.cljs
+Compiling resources/public/figwheel/client.cljs
+Compiling resources/public/figwheel/client/socket.cljs
+Compiling resources/public/cljs/reader.cljs
+Compiling resources/public/figwheel/client/heads_up.cljs
+Compiling resources/public/figwheel/client/file_reloading.cljs
+Compiling resources/public/clojure/set.cljs
+Compiling resources/public/cljs/core/async.cljs
+Compiling resources/public/cljs/core/async/impl/timers.cljs
+Compiling resources/public/cljs/core/async/impl/ioc_helpers.cljs
+Compiling resources/public/cljs/core/async/impl/protocols.cljs
+Compiling resources/public/cljs/core/async/impl/buffers.cljs
+Compiling resources/public/cljs/core/async/impl/dispatch.cljs
+Compiling resources/public/cljs/core/async/impl/channels.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 7.369 seconds.[0m
+notifying browser that file changed:  resources/public/goog/deps.js
+notifying browser that file changed:  resources/public/cljs_deps.js
+notifying browser that file changed:  /sms_application/web_view.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/sms_application/web_view.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/sms_application/web_view.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3161.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:486)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    cljs.closure$eval3618$fn__3619.invoke (closure.clj:500)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/sms_application/web_view.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/sms_application/web_view.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3161.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:486)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    cljs.closure$eval3618$fn__3619.invoke (closure.clj:500)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/sms_application/web_view.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/sms_application/web_view.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3161.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:486)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    cljs.closure$eval3618$fn__3619.invoke (closure.clj:500)
+    cljs.closure$eval3557$fn__3558$G__3548__3565.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16217.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16263.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__16214.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__16017.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__16023.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__16026.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__16020.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__16038.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125$fn__16130.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__16124$state_machine__9617__auto____16125.invoke (auto.clj:178)

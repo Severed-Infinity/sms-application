@@ -15,11 +15,11 @@ om.next.cache.Cache.prototype.add = (function (id,x){
 var self__ = this;
 var this$ = this;
 if((self__.size <= self__.arr.length)){
-var id_SINGLEQUOTE__38058 = self__.arr.shift();
-cljs.core.swap_BANG_.call(null,self__.index,((function (id_SINGLEQUOTE__38058,this$){
-return (function (p1__38057_SHARP_){
-return cljs.core.assoc.call(null,cljs.core.dissoc.call(null,p1__38057_SHARP_,id_SINGLEQUOTE__38058),id,x);
-});})(id_SINGLEQUOTE__38058,this$))
+var id_SINGLEQUOTE__27074 = self__.arr.shift();
+cljs.core.swap_BANG_.call(null,self__.index,((function (id_SINGLEQUOTE__27074,this$){
+return (function (p1__27073_SHARP_){
+return cljs.core.assoc.call(null,cljs.core.dissoc.call(null,p1__27073_SHARP_,id_SINGLEQUOTE__27074),id,x);
+});})(id_SINGLEQUOTE__27074,this$))
 );
 } else {
 cljs.core.swap_BANG_.call(null,self__.index,cljs.core.assoc,id,x);
@@ -42,8 +42,8 @@ om.next.cache.Cache.cljs$lang$type = true;
 
 om.next.cache.Cache.cljs$lang$ctorStr = "om.next.cache/Cache";
 
-om.next.cache.Cache.cljs$lang$ctorPrWriter = (function (this__17383__auto__,writer__17384__auto__,opt__17385__auto__){
-return cljs.core._write.call(null,writer__17384__auto__,"om.next.cache/Cache");
+om.next.cache.Cache.cljs$lang$ctorPrWriter = (function (this__17788__auto__,writer__17789__auto__,opt__17790__auto__){
+return cljs.core._write.call(null,writer__17789__auto__,"om.next.cache/Cache");
 });
 
 om.next.cache.__GT_Cache = (function om$next$cache$__GT_Cache(arr,index,size){
