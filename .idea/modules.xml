@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/sms-application.iml" filepath="$PROJECT_DIR$/sms-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sms-android/sms-android.iml" filepath="$PROJECT_DIR$/../sms-android/sms-android.iml" group="sms" />
+      <module fileurl="file://$PROJECT_DIR$/sms-application.iml" filepath="$PROJECT_DIR$/sms-application.iml" group="sms" />
+      <module fileurl="file://$PROJECT_DIR$/../sms-ios/sms-ios.iml" filepath="$PROJECT_DIR$/../sms-ios/sms-ios.iml" group="sms" />
     </modules>
   </component>
 </project>

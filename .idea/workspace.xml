@@ -2,79 +2,365 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb35e450-fe66-4412-8c2f-6f3b818b9b5f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/BTIssuesDB.mv.db" afterPath="$PROJECT_DIR$/.idea/BTIssuesDB.mv.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async.cljs.cache.edn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/buffers.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/buffers.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/buffers.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/buffers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next/cache.js.map" afterPath="$PROJECT_DIR$/resources/public/js/om/next/cache.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next/cache.js" afterPath="$PROJECT_DIR$/resources/public/js/om/next/cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.cljs.cache.edn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client.cljs.cache.edn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client.js.map" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client.js" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs_deps.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs_deps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sms_application/core.clj" afterPath="$PROJECT_DIR$/src/sms_application/core.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/dispatch.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/dispatch.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/dispatch.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/dispatch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/dom.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/om/dom.cljs.cache.edn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/dom.js.map" afterPath="$PROJECT_DIR$/resources/public/js/om/dom.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/dom.js" afterPath="$PROJECT_DIR$/resources/public/js/om/dom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/figwheel.clj" afterPath="$PROJECT_DIR$/script/figwheel.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/figwheel_server.log" afterPath="$PROJECT_DIR$/figwheel_server.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.cljs.cache.edn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.js.map" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.js" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.cljs.cache.edn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.js.map" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.js" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/index.html" afterPath="$PROJECT_DIR$/resources/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.cljs.cache.edn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/om/next.cljs.cache.edn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next.js.map" afterPath="$PROJECT_DIR$/resources/public/js/om/next.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next.js" afterPath="$PROJECT_DIR$/resources/public/js/om/next.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.cljc.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.cljc.cache.edn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.js.map" afterPath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.js" afterPath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/pprint.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/cljs/pprint.cljs.cache.edn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/pprint.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/pprint.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/pprint.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/pprint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/protocols.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/protocols.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next/protocols.js.map" afterPath="$PROJECT_DIR$/resources/public/js/om/next/protocols.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/protocols.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/protocols.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/om/next/protocols.js" afterPath="$PROJECT_DIR$/resources/public/js/om/next/protocols.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/reader.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/reader.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/reader.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/reader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/repl.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/repl.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/repl.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/repl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_android_support_multidex_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__neko_4_0_0_alpha5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_android_clojure_1_7_0_r2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_nrepl_0_2_10.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/buffers.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/buffers.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/buffers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/buffers.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/channels.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/channels.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/channels.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/channels.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/dispatch.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/dispatch.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/dispatch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/dispatch.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/ioc_helpers.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/ioc_helpers.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/ioc_helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/ioc_helpers.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/protocols.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/protocols.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/protocols.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/protocols.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/timers.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/timers.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/timers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/timers.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/pprint.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/pprint.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/pprint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/pprint.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/reader.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/reader.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/reader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/reader.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/repl.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/repl.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/repl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/repl.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs_deps.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/set.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/set.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/set.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/string.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/string.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/string.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/walk.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/walk.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/walk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/walk.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/zip.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/zip.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/zip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/zip.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/file_reloading.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/file_reloading.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/file_reloading.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/file_reloading.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/heads_up.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/heads_up.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/heads_up.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/heads_up.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/socket.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/socket.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/socket.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/socket.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/utils.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/utils.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/utils.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/connect.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/connect.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/connect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/connect.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/array/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/asserts/asserts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/async/freelist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/async/nexttick.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/async/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/async/workqueue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/console.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/entrypointregistry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/error.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/formatter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/logbuffer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/logrecord.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/relativetimeprovider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/deps.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/dom/browserfeature.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/dom/dom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/dom/nodetype.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/dom/safe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/dom/tagname.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/dom/tags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/fs/url.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/functions/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/html/safehtml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/html/safescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/html/safestyle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/html/safestylesheet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/html/safeurl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/html/trustedresourceurl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/html/uncheckedconversions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/i18n/bidi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/iter/iter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/labs/useragent/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/labs/useragent/engine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/labs/useragent/platform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/labs/useragent/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/log/log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/math/coordinate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/math/math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/math/size.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/mochikit/async/deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/net/jsloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/object/object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/promise/promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/promise/resolver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/promise/thenable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/string/const.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/string/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/string/stringbuffer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/string/typedstring.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/structs/collection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/structs/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/structs/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/structs/structs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/testing/watchers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/uri/uri.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/uri/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/useragent/product.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/useragent/useragent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/buffers.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/buffers.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/buffers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/buffers.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/dispatch.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/dispatch.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/dispatch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/dispatch.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/protocols.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/protocols.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/protocols.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/protocols.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/timers.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/timers.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/timers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/timers.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/pprint.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/pprint.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/pprint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/pprint.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/reader.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/reader.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/reader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/reader.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/repl.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/repl.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/repl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/repl.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs_deps.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/set.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/set.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/set.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/string.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/string.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/string.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/walk.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/walk.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/walk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/walk.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/zip.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/zip.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/zip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/zip.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/connect.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/connect.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/connect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/connect.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/array/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/asserts/asserts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/async/freelist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/async/nexttick.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/async/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/async/workqueue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/console.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/entrypointregistry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/error.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/formatter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/logbuffer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/logrecord.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/relativetimeprovider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/deps.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/dom/browserfeature.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/dom/dom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/dom/nodetype.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/dom/safe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/dom/tagname.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/dom/tags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/fs/url.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/functions/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/html/safehtml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/html/safescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/html/safestyle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/html/safestylesheet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/html/safeurl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/html/trustedresourceurl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/html/uncheckedconversions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/i18n/bidi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/iter/iter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/labs/useragent/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/labs/useragent/engine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/labs/useragent/platform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/labs/useragent/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/log/log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/math/coordinate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/math/math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/math/size.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/mochikit/async/deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/net/jsloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/object/object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/promise/promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/promise/resolver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/promise/thenable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/string/const.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/string/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/string/stringbuffer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/string/typedstring.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/structs/collection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/structs/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/structs/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/structs/structs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/testing/watchers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/uri/uri.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/uri/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/useragent/product.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/useragent/useragent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/dom.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/dom.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/dom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/dom.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/cache.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/cache.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/cache.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.cljc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.cljc.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/protocols.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/protocols.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/protocols.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/protocols.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/react-dom.inc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/react.inc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/dom.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/dom.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/dom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/dom.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/cache.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/cache.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/cache.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/impl/parser.cljc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/impl/parser.cljc.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/impl/parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/impl/parser.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/protocols.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/protocols.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/protocols.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/protocols.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/react-dom.inc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/react.inc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/sms_application/web_view.cljs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/sms_application/web_view.cljs.cache.edn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/sms_application/web_view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/sms_application/web_view.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/script/figwheel.clj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sms_application/web_view.cljs" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/clojure/set.js.map" afterPath="$PROJECT_DIR$/resources/public/js/clojure/set.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/clojure/set.js" afterPath="$PROJECT_DIR$/resources/public/js/clojure/set.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sms-application.iml" afterPath="$PROJECT_DIR$/sms-application.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.cljs.cache.edn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.js.map" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.js" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/clojure/string.js.map" afterPath="$PROJECT_DIR$/resources/public/js/clojure/string.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/clojure/string.js" afterPath="$PROJECT_DIR$/resources/public/js/clojure/string.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/timers.js.map" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/timers.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/timers.js" afterPath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/timers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.cljs.cache.edn" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.cljs.cache.edn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.js.map" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.js" afterPath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/clojure/walk.js.map" afterPath="$PROJECT_DIR$/resources/public/js/clojure/walk.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/clojure/walk.js" afterPath="$PROJECT_DIR$/resources/public/js/clojure/walk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.cljs" afterPath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.cljs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sms_application/web_view.cljs" afterPath="$PROJECT_DIR$/src/sms_application/web_view.cljs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.js.map" afterPath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.js" afterPath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/clojure/zip.js.map" afterPath="$PROJECT_DIR$/resources/public/js/clojure/zip.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/clojure/zip.js" afterPath="$PROJECT_DIR$/resources/public/js/clojure/zip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sms-application.iml" afterPath="$PROJECT_DIR$/sms-application.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sms_application/core.clj" afterPath="$PROJECT_DIR$/src/sms_application/core.clj" />
     </list>
     <ignored path="sms-application.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,52 +381,32 @@
     <favorites_list name="sms-application" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sms_application/core.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web_view.cljs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sms_application/web_view.cljs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.clj" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3472222">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="figwheel.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/figwheel.clj">
+      <file leaf-file-name="sms-application.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sms-application.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sms_application/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.19575857">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -171,15 +437,18 @@
         <option value="$PROJECT_DIR$/src/sms_application/core_copy.clj" />
         <option value="$PROJECT_DIR$/src/sms_application/core.cljs" />
         <option value="$PROJECT_DIR$/src/script/figwheel.clj" />
-        <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/resources/public/index.html" />
         <option value="$PROJECT_DIR$/script/figwheel.clj" />
-        <option value="$PROJECT_DIR$/src/sms_application/core.clj" />
         <option value="$PROJECT_DIR$/src/sms_application/web_view.cljs" />
+        <option value="$PROJECT_DIR$/../sms-android/project.clj" />
+        <option value="$USER_HOME$/.lein/profiles.clj" />
+        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/src/sms_application/core.clj" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
@@ -189,9 +458,6 @@
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="NamedScopeManager">
-    <order />
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1680" />
@@ -270,10 +536,10 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -281,11 +547,29 @@
               <option name="myItemId" value="sms-application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="sms-application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms-application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sms-application" />
@@ -296,6 +580,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="sms-application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sms-application" />
@@ -310,41 +598,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sms-application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sms-application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sms-application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sms-application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,9 +618,9 @@
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/../../../Development/Libraries/Java" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.39425287" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
@@ -371,9 +629,10 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sms-ios" />
     <property name="js.eslint.nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -383,7 +642,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Clojure REPL.REPL for sms-application">
+    <configuration default="false" name="REPL for sms-android" type="ClojureREPL" factoryName="Local" temporary="true">
+      <setting name="replType" value="1" />
+      <module name="sms-android" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$/../sms-android" />
+      <setting name="profiles" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -408,6 +676,15 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -429,6 +706,15 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -453,6 +739,65 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local">
       <setting name="replType" value="1" />
       <module name="" />
@@ -460,6 +805,15 @@
       <setting name="parameters" value="" />
       <setting name="workingDir" value="" />
       <setting name="profiles" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="" />
+      <setting name="repl" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -481,55 +835,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -544,16 +849,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -577,12 +872,73 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sms-android" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="LeiningenRunConfiguration" factoryName="Leiningen">
+      <LeiningenRunnerParameters>
+        <option name="myGoals">
+          <list />
+        </option>
+        <option name="myWorkingDirectory" value="" />
+        <option name="profiles" value="" />
+        <option name="trampoline" value="false" />
+      </LeiningenRunnerParameters>
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -591,38 +947,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -659,6 +983,34 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -668,28 +1020,31 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
+    <configuration default="false" name="REPL for sms-application" type="ClojureREPL" factoryName="Local">
+      <setting name="replType" value="1" />
+      <module name="sms-application" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
       <method />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Clojure REPL.REPL for sms-application" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure REPL.REPL for sms-android" />
+    </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -738,90 +1093,127 @@
       <workItem from="1447361331325" duration="200000" />
       <workItem from="1447371210904" duration="1058000" />
       <workItem from="1447672775080" duration="20000" />
+      <workItem from="1447684576965" duration="156000" />
+      <workItem from="1447764501482" duration="646000" />
+      <workItem from="1447768746014" duration="196000" />
+      <workItem from="1448222320280" duration="311000" />
+      <workItem from="1448236021914" duration="317000" />
+      <workItem from="1448275402387" duration="203000" />
+      <workItem from="1448322941622" duration="219000" />
+      <workItem from="1448323397504" duration="591000" />
+      <workItem from="1448378631729" duration="716000" />
+      <workItem from="1448384522181" duration="137000" />
+      <workItem from="1448458350229" duration="1695000" />
+      <workItem from="1448474039906" duration="1281000" />
+      <workItem from="1448485244770" duration="578000" />
+      <workItem from="1448486291440" duration="590000" />
+      <workItem from="1448487407015" duration="363000" />
+      <workItem from="1448488337593" duration="52000" />
+      <workItem from="1448488411618" duration="35000" />
+      <workItem from="1448488468789" duration="541000" />
+      <workItem from="1448489112390" duration="450000" />
+      <workItem from="1448489964950" duration="843000" />
+      <workItem from="1448490912662" duration="924000" />
+      <workItem from="1448492381439" duration="1763000" />
+      <workItem from="1448494883337" duration="581000" />
+      <workItem from="1448496005661" duration="96000" />
+      <workItem from="1448496558264" duration="512000" />
+      <workItem from="1448537821989" duration="79000" />
+      <workItem from="1448537921975" duration="67000" />
+      <workItem from="1448538010005" duration="19000" />
+      <workItem from="1448542923130" duration="28000" />
+      <workItem from="1448544717190" duration="43000" />
+      <workItem from="1448544780371" duration="368000" />
+      <workItem from="1448547526744" duration="968000" />
+      <workItem from="1448627128958" duration="1362000" />
+      <workItem from="1448644998788" duration="317000" />
+      <workItem from="1448715148597" duration="124000" />
+      <workItem from="1448736952899" duration="775000" />
+      <workItem from="1448799479126" duration="724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32285000" />
+    <option name="totallyTimeSpent" value="50955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Issues" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5068376" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3881579" sideWeight="0.52622676" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3" sideWeight="0.47377327" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="RoboVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21005026" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Tasks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29288703" sideWeight="0.4931624" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2014652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992035" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.502442" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2997558" sideWeight="0.56474257" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32809225" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2997558" sideWeight="0.434375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29288703" sideWeight="0.4931624" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2014652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.497558" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21005026" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Issues" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="RoboVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.492674" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Tasks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Issues" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5034188" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45384616" sideWeight="0.52622676" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3" sideWeight="0.47377327" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="RoboVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21005026" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Tasks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958034" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.4965812" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22991453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Issues" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5034188" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45384616" sideWeight="0.52622676" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3" sideWeight="0.47377327" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="RoboVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21005026" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Tasks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.4965812" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22991453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -844,144 +1236,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sms_application/web_view.cljs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/figwheel.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sms_application/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sms_application/web_view.cljs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/figwheel.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sms_application/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sms_application/web_view.cljs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="0" selection-start-line="41" selection-start-column="5" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/figwheel.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sms_application/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sms_application/web_view.cljs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/figwheel.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,15 +1247,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sms_application/web_view.cljs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,15 +1254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/figwheel.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,7 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,7 +1282,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,7 +1289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,7 +1296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,7 +1303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,7 +1310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,7 +1317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,7 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1144,20 +1376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ring/ring-core/1.4.0/ring-core-1.4.0.jar!/ring/middleware/resource.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/compojure/compojure/1.4.0/compojure-1.4.0.jar!/compojure/handler.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1193,42 +1411,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sms_application/core.clj">
+    <entry file="jar://$MAVEN_REPOSITORY$/co/paralleluniverse/pulsar/0.7.3/pulsar-0.7.3.jar!/co/paralleluniverse/pulsar/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33261338">
+          <caret line="369" column="10" selection-start-line="369" selection-start-column="10" selection-end-line="369" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sms-ios/project.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sms-android/src/java/severed_infinity/android/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51302934">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sms-android/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9039088">
+          <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sms-android/res/drawable-mdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sms-android/res/layout/splashscreen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sms-android/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sms-android/target/debug/gen/R.java.d">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sms-android/target/debug/gen/severed_infinity/android/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sms-android/src/clojure/severed_infinity/android/main.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sms_application/web_view.cljs">
+    <entry file="file://$PROJECT_DIR$/../sms-ios/src/java/sms_ios/core/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sms-ios/src/clojure/sms_ios/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6097561">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/index.html">
+    <entry file="file://$USER_HOME$/.lein/profiles.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2195122">
+          <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ring/ring-core/1.4.0/ring-core-1.4.0.jar!/ring/middleware/resource.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ring/ring-core/1.4.0/ring-core-1.4.0.jar!/ring/util/response.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.169657">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3472222">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/figwheel.clj">
+    <entry file="file://$PROJECT_DIR$/sms-application.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sms_application/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19575857">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1242,7 +1555,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.39425287" />
               </list>
             </option>
           </splitter-proportions>
@@ -1254,7 +1567,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.39425287" />
               </list>
             </option>
           </splitter-proportions>
@@ -1274,11 +1587,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>Android API 23 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.39425287" />
               </list>
             </option>
           </splitter-proportions>
@@ -1286,12 +1599,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sms-application</last-edited>
+          <last-edited>sms-ios|sms</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.39425287" />
               </list>
             </option>
           </splitter-proportions>
@@ -1311,11 +1623,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Leiningen: clojure-complete:0.2.3</last-edited>
+          <last-edited>Leiningen: com.android.support/multidex:1.0.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.39425287" />
               </list>
             </option>
           </splitter-proportions>
