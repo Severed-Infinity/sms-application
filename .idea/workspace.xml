@@ -1,361 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb35e450-fe66-4412-8c2f-6f3b818b9b5f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_android_support_multidex_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__neko_4_0_0_alpha5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_android_clojure_1_7_0_r2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_nrepl_0_2_10.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/buffers.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/buffers.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/buffers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/buffers.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/channels.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/channels.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/channels.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/channels.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/dispatch.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/dispatch.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/dispatch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/dispatch.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/ioc_helpers.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/ioc_helpers.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/ioc_helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/ioc_helpers.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/protocols.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/protocols.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/protocols.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/protocols.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/timers.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/timers.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/timers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/core/async/impl/timers.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/pprint.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/pprint.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/pprint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/pprint.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/reader.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/reader.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/reader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/reader.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/repl.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/repl.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/repl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs/repl.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/cljs_deps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/set.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/set.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/set.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/string.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/string.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/string.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/walk.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/walk.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/walk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/walk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/zip.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/zip.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/zip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/clojure/zip.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/file_reloading.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/file_reloading.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/file_reloading.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/file_reloading.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/heads_up.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/heads_up.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/heads_up.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/heads_up.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/socket.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/socket.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/socket.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/socket.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/utils.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/utils.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/client/utils.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/connect.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/connect.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/connect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/figwheel/connect.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/array/array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/asserts/asserts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/async/freelist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/async/nexttick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/async/run.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/async/workqueue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/console.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/entrypointregistry.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/error.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/formatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/logbuffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/logger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/logrecord.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/debug/relativetimeprovider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/deps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/dom/browserfeature.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/dom/dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/dom/nodetype.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/dom/safe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/dom/tagname.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/dom/tags.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/fs/url.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/functions/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/html/safehtml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/html/safescript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/html/safestyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/html/safestylesheet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/html/safeurl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/html/trustedresourceurl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/html/uncheckedconversions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/i18n/bidi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/iter/iter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/labs/useragent/browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/labs/useragent/engine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/labs/useragent/platform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/labs/useragent/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/log/log.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/math/coordinate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/math/math.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/math/size.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/mochikit/async/deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/net/jsloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/object/object.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/promise/promise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/promise/resolver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/promise/thenable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/string/const.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/string/string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/string/stringbuffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/string/typedstring.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/structs/collection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/structs/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/structs/set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/structs/structs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/testing/watchers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/uri/uri.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/uri/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/useragent/product.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/goog/useragent/useragent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/buffers.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/buffers.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/buffers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/buffers.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/channels.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/dispatch.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/dispatch.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/dispatch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/dispatch.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/ioc_helpers.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/protocols.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/protocols.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/protocols.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/protocols.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/timers.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/timers.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/timers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/core/async/impl/timers.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/pprint.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/pprint.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/pprint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/pprint.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/reader.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/reader.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/reader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/reader.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/repl.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/repl.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/repl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs/repl.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/cljs_deps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/set.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/set.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/set.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/string.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/string.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/string.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/walk.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/walk.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/walk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/walk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/zip.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/zip.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/zip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/clojure/zip.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/file_reloading.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/heads_up.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/socket.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/client/utils.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/connect.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/connect.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/connect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/figwheel/connect.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/array/array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/asserts/asserts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/async/freelist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/async/nexttick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/async/run.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/async/workqueue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/console.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/entrypointregistry.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/error.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/formatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/logbuffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/logger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/logrecord.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/debug/relativetimeprovider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/deps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/dom/browserfeature.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/dom/dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/dom/nodetype.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/dom/safe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/dom/tagname.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/dom/tags.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/fs/url.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/functions/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/html/safehtml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/html/safescript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/html/safestyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/html/safestylesheet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/html/safeurl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/html/trustedresourceurl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/html/uncheckedconversions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/i18n/bidi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/iter/iter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/labs/useragent/browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/labs/useragent/engine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/labs/useragent/platform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/labs/useragent/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/log/log.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/math/coordinate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/math/math.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/math/size.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/mochikit/async/deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/net/jsloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/object/object.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/promise/promise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/promise/resolver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/promise/thenable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/string/const.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/string/string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/string/stringbuffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/string/typedstring.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/structs/collection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/structs/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/structs/set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/structs/structs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/testing/watchers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/uri/uri.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/uri/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/useragent/product.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/goog/useragent/useragent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/dom.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/dom.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/dom.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/cache.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/cache.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/cache.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.cljc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.cljc.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/impl/parser.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/protocols.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/protocols.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/protocols.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/om/next/protocols.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/react-dom.inc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/react.inc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/js/sms_application/web_view.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/dom.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/dom.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/dom.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/cache.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/cache.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/cache.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/impl/parser.cljc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/impl/parser.cljc.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/impl/parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/impl/parser.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/protocols.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/protocols.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/protocols.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/om/next/protocols.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/react-dom.inc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/react.inc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/sms_application/web_view.cljs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/sms_application/web_view.cljs.cache.edn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/sms_application/web_view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/public/sms_application/web_view.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/script/figwheel.clj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sms_application/web_view.cljs" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="bb35e450-fe66-4412-8c2f-6f3b818b9b5f" name="Default" comment="fresh start">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__args4j_2_0_26.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__clj_stacktrace_0_2_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__clj_time_0_9_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__cljsjs_react_0_14_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__cljsjs_react_dom_0_14_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojurescript_build_0_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__clout_2_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__co_paralleluniverse_comsat_httpkit_0_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_cemerick_pomegranate_0_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_code_gson_gson_2_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_javascript_closure_compiler_externs_v20150920.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_javascript_closure_compiler_v20150920.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_stuartsierra_component_0_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_stuartsierra_dependency_0_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_codec_1_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_fileupload_1_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_io_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_logging_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__compojure_1_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__crypto_equality_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__crypto_random_1_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__digest_1_4_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__figwheel_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__figwheel_sidecar_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__http_kit_2_1_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__instaparse_1_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__joda_time_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__medley_0_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpclient_4_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpcore_4_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_maven_maven_aether_provider_3_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_maven_maven_model_3_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_maven_maven_model_builder_3_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_maven_maven_repository_metadata_3_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_maven_wagon_wagon_http_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_maven_wagon_wagon_http_shared4_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_maven_wagon_wagon_provider_api_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojurescript_1_7_145.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_async_0_1_346_0_17112a_alpha.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_memoize_0_5_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_data_json_0_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_google_closure_library_0_0_20150805_acd8b553.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_google_closure_library_third_party_0_0_20150805_acd8b553.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_analyzer_0_1_0_beta12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_analyzer_jvm_0_1_0_beta12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_nrepl_0_2_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_codehaus_plexus_plexus_classworlds_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_codehaus_plexus_plexus_interpolation_1_14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_codehaus_plexus_plexus_utils_2_0_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_jsoup_jsoup_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_mozilla_rhino_1_7R5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_omcljs_om_1_0_0_alpha14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_sonatype_aether_aether_api_1_13_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_sonatype_aether_aether_connector_file_1_13_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_sonatype_aether_aether_connector_wagon_1_13_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_sonatype_aether_aether_impl_1_13_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_sonatype_aether_aether_spi_1_13_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_sonatype_aether_aether_util_1_13_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_sonatype_sisu_sisu_guice_3_0_3_no_aop.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_sonatype_sisu_sisu_inject_bean_2_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_sonatype_sisu_sisu_inject_plexus_2_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_tcrawley_dynapath_0_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_cors_0_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_codec_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_core_1_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__watchtower_0_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figwheel_server.log" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_protobuf_protobuf_java_2_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_protobuf_protobuf_java_2_6_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_macro_0_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_macro_0_1_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_reader_0_10_0_alpha3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_reader_0_9_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
@@ -386,17 +104,7 @@
         <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sms-application.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sms-application.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -405,8 +113,28 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sms_application/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19575857">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.24752475">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/co/paralleluniverse/pulsar/0.7.3/pulsar-0.7.3.jar!/co/paralleluniverse/pulsar/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="239" column="10" selection-start-line="239" selection-start-column="10" selection-end-line="239" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profiles.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.lein/profiles.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="91" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -460,8 +188,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="974" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -540,6 +269,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -600,8 +331,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -618,18 +347,17 @@
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/../../../Development/Libraries/Java" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.39425287" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="exceptions_db_version" value="1" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sms-ios" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Development/Libraries/Java/quasar-core-0.7.3.jar!/" />
     <property name="js.eslint.nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
@@ -1129,36 +857,49 @@
       <workItem from="1448644998788" duration="317000" />
       <workItem from="1448715148597" duration="124000" />
       <workItem from="1448736952899" duration="775000" />
-      <workItem from="1448799479126" duration="724000" />
+      <workItem from="1448799479126" duration="1357000" />
+      <workItem from="1448827160558" duration="2483000" />
+      <workItem from="1448832196711" duration="1289000" />
+      <workItem from="1448833806239" duration="710000" />
+      <workItem from="1448834565889" duration="12000" />
+      <workItem from="1448834604552" duration="5951000" />
+      <workItem from="1448841483346" duration="447000" />
+      <workItem from="1448903342745" duration="4444000" />
+      <workItem from="1448922088041" duration="1251000" />
+      <workItem from="1448971917940" duration="227000" />
+      <workItem from="1448972905778" duration="423000" />
     </task>
+    <task id="LOCAL-00001" summary="fresh start">
+      <created>1448812360759</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1448812360759</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50955000" />
+    <option name="totallyTimeSpent" value="68825000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="974" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.502442" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2593458" sideWeight="0.517094" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2997558" sideWeight="0.56474257" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37057388" sideWeight="0.7791798" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32809225" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2997558" sideWeight="0.434375" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29288703" sideWeight="0.4931624" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37057388" sideWeight="0.22082019" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2593458" sideWeight="0.48290598" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2014652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.497558" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21005026" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1171,10 +912,14 @@
       <window_info id="RoboVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.492674" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Tasks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.497558" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1227,6 +972,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="fresh start" />
+    <option name="LAST_COMMIT_MESSAGE" value="fresh start" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -1236,6 +989,52 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sms_application/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.7.0/clojure-1.7.0.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4573" column="6" selection-start-line="4573" selection-start-column="6" selection-end-line="4573" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sms-application.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1411,13 +1210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/co/paralleluniverse/pulsar/0.7.3/pulsar-0.7.3.jar!/co/paralleluniverse/pulsar/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33261338">
-          <caret line="369" column="10" selection-start-line="369" selection-start-column="10" selection-end-line="369" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../sms-ios/project.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1476,7 +1268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1484,9 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1494,15 +1282,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6097561">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.lein/profiles.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2195122">
-          <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1510,7 +1289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1518,15 +1296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.169657">
           <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1534,14 +1303,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.7.0/clojure-1.7.0.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018115941">
+          <caret line="4573" column="6" selection-start-line="4573" selection-start-column="6" selection-end-line="4573" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/tools.nrepl/0.2.11/tools.nrepl-0.2.11.jar!/clojure/tools/nrepl/middleware/interruptible_eval.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6816609">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/co/paralleluniverse/pulsar/0.7.3/pulsar-0.7.3.jar!/co/paralleluniverse/pulsar/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="239" column="10" selection-start-line="239" selection-start-column="10" selection-end-line="239" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.lein/profiles.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="91" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="91" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sms_application/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19575857">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.24752475">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1579,7 +1385,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.39425287" />
               </list>
             </option>
           </splitter-proportions>
@@ -1599,7 +1405,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sms-ios|sms</last-edited>
+          <last-edited>sms-application|sms</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
