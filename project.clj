@@ -2,16 +2,19 @@
   :description "An sms application designed to use a built in messaging system, web-texts and standard sms functionalities."
   :url "https://github.com/Severed-Infinity/sms-application"
   :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+            :url  "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.7.0"]
-                 [com.stuartsierra/component "0.3.0"]
-                 [co.paralleluniverse/pulsar "0.7.3"]
+                 [co.paralleluniverse/pulsar "0.7.4" :exclusions [org.clojure/tools.analyzer.jvm org.clojure/tools.analyzer]]
                  [co.paralleluniverse/comsat-httpkit "0.5.0"]
-                 [compojure "1.4.0"]
-                 [org.clojure/clojurescript "1.7.145"]
-                 [org.omcljs/om "1.0.0-alpha14"]
-                 [figwheel-sidecar "0.4.0" :scope "provided"]]
-  :java-agents [[co.paralleluniverse/quasar-core "0.7.3"]]
-  :main ^:skip-aot sms-application.core
+                 [bidi "1.25.0"]]
+  :java-agents [[co.paralleluniverse/quasar-core "0.7.4" :options "m"]]
+  :manifest {"Premain-Class"           "co.paralleluniverse.fibers.instrument.JavaAgent"
+             "Agent-Class"             "co.paralleluniverse.fibers.instrument.JavaAgent"
+             "Can-Retransform-Classes" "true"
+             "Can-Redefine-Classes"    "true"}
+  :bootclasspath true
+  :main sms-application.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}})
+  :profiles {:uberjar {:aot :all}
+             :auto-instrument-all
+                      {:jvm-opts ["-Dco.paralleluniverse.pulsar.instrument.auto=all"]}})

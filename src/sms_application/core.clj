@@ -1,33 +1,64 @@
 (ns sms-application.core
   (:gen-class)
+  (:use [co.paralleluniverse.pulsar core])
   (:require
-    [ring.util.response :refer [file-response]]
-    [ring.middleware.resource :refer [wrap-resource]]
-    [ring.middleware.file-info :refer [wrap-file-info]]
+    #_[co.paralleluniverse.fiber.httpkit.client :as client]
     [org.httpkit.server :as server]
-    [co.paralleluniverse.fiber.httpkit.client :refer :all]
-    [co.paralleluniverse.pulsar.core :refer [fiber]]
-    [compojure.core :refer :all]
-    [compojure.route :as route]))
+    [sms-application.api :as app-api])
+  (:refer-clojure :exclude [await promise]))
 
-(defn index []
-  (file-response "public/index.html" {:root "resources"}))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;message server dev-stuff
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(defonce message-server (atom nil))
 
-(defroutes handler
-  (GET "/" [] (index))
-  (route/resources "/")
-  (route/not-found "not found"))
-
-(defonce server (atom nil))
+(defn start-server []
+  (reset! message-server (server/run-server #'app-api/app {:port 3033})))
 
 (defn stop-server []
-  (when-not (nil? @server)
-    (@server :timeout 100)
-    (reset! server nil)))
+  (when-not (nil? @message-server)
+    (@message-server :timeout 100)
+    (reset! message-server nil)))
+
+(defn reset-server []
+  (stop-server)
+  (start-server))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;message server functions
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(defrecord Message [src dest body])
+
+(def incoming-queue (channel))
+
+(defn incoming-message [src dest body]
+  (fiber
+    (snd incoming-queue (Message. src dest body))))
+
+(def outgoing-queue (channel))
+
+(defn sort-message->output-channel [])
+
+;;;;
+;;input/output testing
+;;;;
+(defn print-message [message]
+  (let [{:keys [src dest body]} message]
+    (println src dest body)))
+
+(def test-message-system
+  (do
+    (incoming-message "086" "087" "hello")
+    (fiber
+      (let [message (rcv incoming-queue)]
+        (println message)
+        (print-message message)))))
+
+;;;;
+;;end of testing
+;;;;
 
 (defn -main []
-  (reset! server (server/run-server
-                   handler {:port 8080})))
+  (fiber (start-server)))
 
-(defn print-message [message]
-  (println (str message)))
+(-main)
