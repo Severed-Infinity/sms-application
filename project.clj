@@ -4,9 +4,10 @@
   :license {:name "Eclipse Public License"
             :url  "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.7.0"]
-                 [co.paralleluniverse/pulsar "0.7.3" :exclusions [org.clojure/tools.analyzer.jvm org.clojure/tools.analyzer]]
-                 #_[co.paralleluniverse/comsat-httpkit "0.5.0"]]
-  :java-agents [[co.paralleluniverse/quasar-core "0.7.3" :options "m"]]
+                 [co.paralleluniverse/pulsar "0.7.4" :exclusions [org.clojure/tools.analyzer.jvm org.clojure/tools.analyzer]]
+                 [co.paralleluniverse/comsat-httpkit "0.5.0"]
+                 [bidi "1.25.0"]]
+  :java-agents [[co.paralleluniverse/quasar-core "0.7.4" :options "m"]]
   :manifest {"Premain-Class"           "co.paralleluniverse.fibers.instrument.JavaAgent"
              "Agent-Class"             "co.paralleluniverse.fibers.instrument.JavaAgent"
              "Can-Retransform-Classes" "true"
