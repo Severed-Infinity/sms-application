@@ -49,6 +49,7 @@
     <orderEntry type="library" name="Leiningen: im.chit/hara.reflect:2.1.8" level="project" />
     <orderEntry type="library" name="Leiningen: io.aviso/pretty:0.1.18" level="project" />
     <orderEntry type="library" name="Leiningen: io.dropwizard.metrics/metrics-core:3.1.2" level="project" />
+    <orderEntry type="library" name="Leiningen: javax.servlet/servlet-api:2.5" level="project" />
     <orderEntry type="library" name="Leiningen: joda-time:2.6" level="project" />
     <orderEntry type="library" name="Leiningen: manifold:0.1.0" level="project" />
     <orderEntry type="library" name="Leiningen: mvxcvi/puget:0.8.1" level="project" />
@@ -70,7 +71,7 @@
     <orderEntry type="library" name="Leiningen: org.clojure/tools.macro:0.1.1" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/tools.namespace:0.2.5" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/tools.nrepl:0.2.10" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/tools.reader:0.7.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/tools.reader:0.9.1" level="project" />
     <orderEntry type="library" name="Leiningen: org.flatland/useful:0.11.3" level="project" />
     <orderEntry type="library" name="Leiningen: org.hdrhistogram/HdrHistogram:2.1.8" level="project" />
     <orderEntry type="library" name="Leiningen: org.latencyutils/LatencyUtils:2.0.2" level="project" />

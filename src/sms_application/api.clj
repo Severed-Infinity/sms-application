@@ -3,7 +3,8 @@
   (:require [bidi.ring :as ring]
             [bidi.bidi :refer [path-for match-route]]
             [ring.middleware.params :as params]
-            [ring.middleware.multipart-params :as mul-params]))
+            [ring.middleware.multipart-params :as mul-params]
+            [sms-application.message-handler :refer [incoming-message]]))
 
 ;;possibly remove the spaces for url sake
 ;;with spaces (0|\+353|353)\s{0,1}(83|85|86|87|88|89)\s{0,1}\d{3}\s{0,1}\d{4}
@@ -17,7 +18,11 @@
 ;;TODO replace current handler functions with correct server based calls
 ;;TODO look at some how using interceptors
 (def api-handler {:get-messages (fn [req] {:status 200 :body (str "unread messages " (:route-params req))})
-                  :send-message (fn [req] {:status 200 :body (str "sent message " (:params req))})
+                  :send-message (fn [req]
+                                  (let [{:keys [params]} req]
+                                    #_(println "message incoming")
+                                    (incoming-message (params "src") (params "dest") (params "message")))
+                                  {:status 200 :body (str "sent message " (:params req))})
                   :not-found    (fn [req] {:status 404 :body (str "not-found {:uri \"" (:uri req) "\"}")})})
 
 (defn key-handler [key] (key api-handler))

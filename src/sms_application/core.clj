@@ -24,41 +24,8 @@
   (stop-server)
   (start-server))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;message server functions
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(defrecord Message [src dest body])
-
-(def incoming-queue (channel))
-
-(defn incoming-message [src dest body]
-  (fiber
-    (snd incoming-queue (Message. src dest body))))
-
-(def outgoing-queue (channel))
-
-(defn sort-message->output-channel [])
-
-;;;;
-;;input/output testing
-;;;;
-(defn print-message [message]
-  (let [{:keys [src dest body]} message]
-    (println src dest body)))
-
-(def test-message-system
-  (do
-    (incoming-message "086" "087" "hello")
-    (fiber
-      (let [message (rcv incoming-queue)]
-        (println message)
-        (print-message message)))))
-
-;;;;
-;;end of testing
-;;;;
-
 (defn -main []
+  (fiber sms-application.message-handler/monitor-messages)
   (fiber (start-server)))
 
 (-main)

@@ -8,7 +8,6 @@
       <list>
         <option value="file://$PROJECT_DIR$/project.clj" />
         <option value="file://$PROJECT_DIR$/../sms-ios/project.clj" />
-        <option value="file://$PROJECT_DIR$/../sms-android/project.clj" />
       </list>
     </option>
   </component>

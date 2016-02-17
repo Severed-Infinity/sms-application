@@ -21,4 +21,5 @@
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}
              :auto-instrument-all
-                      {:jvm-opts ["-Dco.paralleluniverse.pulsar.instrument.auto=all"]}})
+                      {:jvm-opts ["-Dco.paralleluniverse.pulsar.instrument.auto=all"
+                                  "-Dco.paralleluniverse.fibers.verifyInstrumentation=true"]}})
