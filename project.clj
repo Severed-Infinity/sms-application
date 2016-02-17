@@ -7,10 +7,11 @@
                  [co.paralleluniverse/pulsar "0.7.4" :exclusions [org.clojure/tools.analyzer.jvm org.clojure/tools.analyzer]]
                  [co.paralleluniverse/comsat-httpkit "0.5.0"]
                  [bidi "1.25.0"]
-
+                 [environ "1.0.2"]
                  [ring/ring-core "1.4.0"]
                  ;requirement for ring multipart
                  [javax.servlet/servlet-api "2.5"]]
+  :plugins [[lein-environ "1.0.2"]]
   :java-agents [[co.paralleluniverse/quasar-core "0.7.4" :options "m"]]
   :manifest {"Premain-Class"           "co.paralleluniverse.fibers.instrument.JavaAgent"
              "Agent-Class"             "co.paralleluniverse.fibers.instrument.JavaAgent"
