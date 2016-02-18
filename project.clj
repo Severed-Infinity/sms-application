@@ -3,6 +3,7 @@
   :url "https://github.com/Severed-Infinity/sms-application"
   :license {:name "Eclipse Public License"
             :url  "http://www.eclipse.org/legal/epl-v10.html"}
+  :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [co.paralleluniverse/pulsar "0.7.4" :exclusions [org.clojure/tools.analyzer.jvm org.clojure/tools.analyzer]]
                  [co.paralleluniverse/comsat-httpkit "0.5.0"]
