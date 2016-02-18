@@ -21,9 +21,10 @@
   :bootclasspath true
   :main sms-application.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}
+  :profiles {:production {}
+             :uberjar    {:aot :all}
              :auto-instrument-all
-                      {:jvm-opts ["-Dco.paralleluniverse.pulsar.instrument.auto=all"
+                         {:jvm-opts ["-Dco.paralleluniverse.pulsar.instrument.auto=all"
                                   "-Dco.paralleluniverse.fibers.verifyInstrumentation=true"]}}
   :capsule {:types {:fat {}}}
   :heroku {:app-name      "sfinity-server"
