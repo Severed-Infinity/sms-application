@@ -13,10 +13,12 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (defonce message-server (atom nil))
 
-(defn start-server [& port]
+(defn start-server [& [port]]
+  (println "starting web server…")
   (reset! message-server (server/run-server #'app-api/app {:port port})))
 
 (defn stop-server []
+  (println "stopping web server…")
   (when-not (nil? @message-server)
     (@message-server :timeout 100)
     (reset! message-server nil)))
@@ -26,6 +28,6 @@
   (start-server))
 
 (defn -main [& [port]]
-  (let [port (or port (env :port) 3033)]
-    (fiber sms-application.message-handler/monitor-messages)
+  (let [port (Integer. (or port (env :port) 3033))]
+    (spawn-fiber sms-application.message-handler/monitor-messages)
     (fiber (start-server port))))

@@ -11,28 +11,31 @@
 
 (def incoming-queue (channel))
 
+;TODO remove printlin
 (defn incoming-message [src dest body]
-  (println "message recieved" src dest body)
+  (println "message recieved {" src dest body "}")
   (fiber
     (snd incoming-queue (Message. src dest body))))
 
 #_(def outgoing-queue (channel))
 
 #_(defn sort-message->output-channel [])
-(incoming-message "0234" "01724" "hello test")
+;(incoming-message "0234" "01724" "hello test")
 
+;TODO replace print-message with channel redirection based on number
 (defn monitor-messages []
-  #_(let [in-mess (fn [] ((rcv incoming-message)))])
-  (while true
-    (let [next-message (rcv incoming-queue)]
-      (print-message next-message))))
+  (println "monitoring for messages…")
+  (loop []
+    (when-let [next-message (rcv incoming-queue)]
+      (print-message next-message))
+    (recur)))
 
 ;;;;
 ;;input/output testing
 ;;;;
 (defn print-message [message]
   (let [{:keys [src dest body]} message]
-    (println "\nprinting… " src dest body "\n")))
+    (println "printing… " src dest body "\n")))
 
 #_(def test-message-system
     (do
