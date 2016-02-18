@@ -32,4 +32,4 @@
     (spawn-fiber sms-application.message-handler/monitor-messages)
     (fiber (reset-server port))))
 
-(-main)
+#_(-main)

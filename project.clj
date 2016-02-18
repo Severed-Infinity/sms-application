@@ -24,4 +24,9 @@
   :profiles {:uberjar {:aot :all}
              :auto-instrument-all
                       {:jvm-opts ["-Dco.paralleluniverse.pulsar.instrument.auto=all"
-                                  "-Dco.paralleluniverse.fibers.verifyInstrumentation=true"]}})
+                                  "-Dco.paralleluniverse.fibers.verifyInstrumentation=true"]}}
+  :capsule {:types {:fat {}}}
+  :heroku {:app-name      "sfinity-server"
+           :jdk-version   "1.8"
+           :include-files ["target/uberjar/sms-application-0.1.0-SNAPSHOT-standalone.jar"]
+           :process-type  ["web java -jar target/uberjar/sms-application-0.1.0-SNAPSHOT-standalone.jar"]})
