@@ -23,11 +23,13 @@
     (@message-server :timeout 100)
     (reset! message-server nil)))
 
-(defn reset-server []
+(defn reset-server [& [port]]
   (stop-server)
-  (start-server))
+  (start-server port))
 
 (defn -main [& [port]]
-  (let [port (Integer. (or port (env :port) 3033))]
+  (let [port (Integer. ^Integer (or port (env :port) 3033))]
     (spawn-fiber sms-application.message-handler/monitor-messages)
-    (fiber (start-server port))))
+    (fiber (reset-server port))))
+
+(-main)
