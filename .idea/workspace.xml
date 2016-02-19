@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb35e450-fe66-4412-8c2f-6f3b818b9b5f" name="Default" comment="wrapped main in a while loop">
+    <list default="true" id="bb35e450-fe66-4412-8c2f-6f3b818b9b5f" name="Default" comment="undid loop in main">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sms_application/core.clj" afterPath="$PROJECT_DIR$/src/sms_application/core.clj" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sms_application/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65217394">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.6971514">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -58,7 +58,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding />
+              <folding>
+                <marker date="1455841980000" expanded="true" signature="0:2060" placeholder="(defproject sms-application ...)" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -805,7 +807,7 @@
       <workItem from="1455795508470" duration="793000" />
       <workItem from="1455796993328" duration="20000" />
       <workItem from="1455835509385" duration="881000" />
-      <workItem from="1455836812088" duration="6641000" />
+      <workItem from="1455836812088" duration="6884000" />
     </task>
     <task id="LOCAL-00001" summary="fresh start">
       <created>1448812360759</created>
@@ -957,11 +959,17 @@
       <option name="project" value="LOCAL" />
       <updated>1455845918826</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="undid loop in main">
+      <created>1455846099998</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1455846099998</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132585000" />
+    <option name="totallyTimeSpent" value="132828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1077,7 +1085,8 @@
     <MESSAGE value="removed ip option on run-server" />
     <MESSAGE value="removed port arg" />
     <MESSAGE value="wrapped main in a while loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrapped main in a while loop" />
+    <MESSAGE value="undid loop in main" />
+    <option name="LAST_COMMIT_MESSAGE" value="undid loop in main" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1097,7 +1106,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
+          <folding>
+            <marker date="1455841980000" expanded="true" signature="0:2060" placeholder="(defproject sms-application ...)" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1121,7 +1132,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-          <folding />
+          <folding>
+            <marker date="1455841980000" expanded="true" signature="0:2060" placeholder="(defproject sms-application ...)" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1137,7 +1150,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding />
+          <folding>
+            <marker date="1455841980000" expanded="true" signature="0:2060" placeholder="(defproject sms-application ...)" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1442,7 +1457,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
+          <folding>
+            <marker date="1455841980000" expanded="true" signature="0:2060" placeholder="(defproject sms-application ...)" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1456,8 +1473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sms_application/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65217394">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.6971514">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding />
         </state>
       </provider>
