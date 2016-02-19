@@ -13,7 +13,7 @@
                  ;requirement for ring multipart
                  [javax.servlet/servlet-api "2.5"]]
   :plugins [[lein-environ "1.0.2"]]
-  :java-agents [[co.paralleluniverse/quasar-core "0.7.4" :options "m"]]
+  :java-agents [[co.paralleluniverse/quasar-core "0.7.4" :classifier "jdk8" :options "m"]]
   :manifest {"Premain-Class"           "co.paralleluniverse.fibers.instrument.JavaAgent"
              "Agent-Class"             "co.paralleluniverse.fibers.instrument.JavaAgent"
              "Can-Retransform-Classes" "true"
@@ -21,13 +21,15 @@
   :bootclasspath true
   :main sms-application.core
   :target-path "target/%s"
+  :uberjar-name "sfinity-server.jar"
+  :aot [sms-application.core]
   :profiles {:production {}
              :uberjar    {:aot :all}
              :auto-instrument-all
                          {:jvm-opts ["-Dco.paralleluniverse.pulsar.instrument.auto=all"
                                   "-Dco.paralleluniverse.fibers.verifyInstrumentation=true"]}}
-  :capsule {:types {:fat {}}}
-  :heroku {:app-name      "sfinity-server"
-           :jdk-version   "1.8"
-           :include-files ["target/uberjar/sms-application-0.1.0-SNAPSHOT-standalone.jar"]
-           :process-type  ["web java -jar target/uberjar/sms-application-0.1.0-SNAPSHOT-standalone.jar"]})
+  :capsule {:types {:fat {:name "sfinity-server-capsule.jar"}}}
+  #_{:heroku {:app-name      "sfinity-server"
+              :jdk-version   "1.8"
+              :include-files ["target/uberjar/sms-application-0.1.0-SNAPSHOT-standalone.jar"]
+              :process-type  ["web java -jar target/uberjar/sms-application-0.1.0-SNAPSHOT-standalone.jar"]}})
