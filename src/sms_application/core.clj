@@ -15,7 +15,7 @@
 
 (defn start-server [& [port]]
   (println "starting web server…")
-  (reset! message-server (server/run-server #'app-api/app {:port port})))
+  (reset! message-server (server/run-server #'app-api/app {:port port :host (env :host)})))
 
 (defn stop-server []
   (println "stopping web server…")
