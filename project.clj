@@ -29,7 +29,7 @@
                          {:jvm-opts ["-Dco.paralleluniverse.pulsar.instrument.auto=all"
                                      "-Dco.paralleluniverse.fibers.verifyInstrumentation=true"]}}
   :capsule {:types {:fat {:name "sfinity-server-capsule.jar"}}}
-  #_{:heroku {:app-name      "sfinity-server"
-              :jdk-version   "1.8"
-              :include-files ["target/uberjar/sms-application-0.1.0-SNAPSHOT-standalone.jar"]
-              :process-type  ["web java -jar target/uberjar/sms-application-0.1.0-SNAPSHOT-standalone.jar"]}})
+  :heroku {:app-name      "sfinity-server"
+           :jdk-version   "1.8"
+           :include-files ["target/uberjar/sfinity-server.jar"]
+           #_{:process-type ["web java -jar target/uberjar/sfinity-server.jar"]}})
