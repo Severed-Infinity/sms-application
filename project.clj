@@ -5,8 +5,8 @@
             :url  "http://www.eclipse.org/legal/epl-v10.html"}
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.7.0"]
-                 [co.paralleluniverse/pulsar "0.7.4" :exclusions [org.clojure/tools.analyzer.jvm org.clojure/tools.analyzer]]
-                 [co.paralleluniverse/comsat-httpkit "0.5.0"]
+                 [co.paralleluniverse/pulsar "0.7.4" :exclusions [[org.clojure/tools.analyzer.jvm] [org.clojure/tools.analyzer] [org.clojure/tools.reader]]]
+                 [co.paralleluniverse/comsat-httpkit "0.5.0" :exclusions [[org.clojure/tools.reader]]]
                  [bidi "1.25.0"]
                  [environ "1.0.2"]
                  [ring/ring-core "1.4.0"]
@@ -27,7 +27,7 @@
              :uberjar    {:aot :all}
              :auto-instrument-all
                          {:jvm-opts ["-Dco.paralleluniverse.pulsar.instrument.auto=all"
-                                  "-Dco.paralleluniverse.fibers.verifyInstrumentation=true"]}}
+                                     "-Dco.paralleluniverse.fibers.verifyInstrumentation=true"]}}
   :capsule {:types {:fat {:name "sfinity-server-capsule.jar"}}}
   #_{:heroku {:app-name      "sfinity-server"
               :jdk-version   "1.8"
