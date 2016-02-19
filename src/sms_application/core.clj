@@ -30,7 +30,7 @@
 (defn -main [& [port]]
   (let [port (Integer. ^Integer (or port (env :port) 3033))]
     (println "port: " port)
-    (spawn-fiber sms-application.message-handler/monitor-messages)
-    (fiber (reset-server port))))
+    (fiber (reset-server port))
+    (spawn-fiber sms-application.message-handler/monitor-messages)))
 
 #_(-main)
