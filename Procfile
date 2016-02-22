@@ -1,1 +1,1 @@
-app: java $JVM_OPTS -cp target/uberjar/sfinity-server.jar clojure.main -m sms-application.core
+web: lein with-profile production trampoline run -m sms-application.core
