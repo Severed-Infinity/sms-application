@@ -4,6 +4,7 @@
   (:require
     #_[co.paralleluniverse.fiber.httpkit.client :as client]
     [org.httpkit.server :as server]
+    [org.httpkit.client :as client]
     [sms-application.api :as app-api]
     [environ.core :refer [env]])
   (:refer-clojure :exclude [await promise]))
@@ -34,4 +35,5 @@
     (join monitor)
     (join server)))
 
+#_(client/get "http://localhost:3033/user/0862561423/messages")
 #_(-main)
