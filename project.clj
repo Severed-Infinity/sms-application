@@ -8,6 +8,7 @@
                  [co.paralleluniverse/pulsar "0.7.4" :exclusions [[org.clojure/tools.analyzer.jvm] [org.clojure/tools.analyzer] [org.clojure/tools.reader]]]
                  [co.paralleluniverse/comsat-httpkit "0.5.0" :exclusions [[org.clojure/tools.reader]]]
                  [bidi "1.25.0"]
+                 [cheshire "5.5.0"]
                  [environ "1.0.2"]
                  [ring/ring-core "1.4.0"]
                  ;requirement for ring multipart

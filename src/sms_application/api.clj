@@ -20,8 +20,9 @@
 (def api-handler {:get-messages (fn [req] {:status 200 :body (outgoing-messages (:route-params req))})
                   :send-message (fn [req]
                                   (let [{:keys [params]} req]
+                                    (println (incoming-message req))
                                     (incoming-message (params "src") (params "dest") (params "message")))
-                                  {:status 200 :body (str "sent message " (:params req))})
+                                  {:status 200 :body (str "sent message " (:multipart-params req))})
                   :not-found    (fn [req] {:status 404 :body (str "not-found {:uri \"" (:uri req) "\"}")})})
 
 (defn key-handler [key] (key api-handler))

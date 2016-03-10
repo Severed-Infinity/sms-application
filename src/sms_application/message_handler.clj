@@ -1,5 +1,6 @@
 (ns sms-application.message-handler
   (:gen-class)
+  (:require [cheshire.core :refer :all])
   (:use [co.paralleluniverse.pulsar core])
   (:refer-clojure :exclude [await promise]))
 
@@ -7,59 +8,50 @@
 ;;;message server functions
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (declare print-message)
-(defrecord Message [src dest body])
-(defn Message->map [message]
-  (reduce conj {} message))
+(defrecord Message [src dest message])
 
 (def incoming-queue (channel -1))
 (def outgoing-queue (channel -1))
 
-;TODO remove println
-(defn incoming-message [src dest body]
-  #_(println "message recieved {" src dest body "}")
-  (fiber
-    (snd incoming-queue (->Message src dest body))))
+;TODO instead of passing in 3 args pass in the response body and parse it
+(defn incoming-message
+  ([req]
+   (let [message (map->Message
+                   (clojure.walk/keywordize-keys (:multipart-params req)))]
+     (fiber
+       (snd incoming-queue message))))
+  ([src dest message]
+    #_(println "message recieved {" src dest body "}")
+   (fiber
+     (snd incoming-queue (->Message src dest message)))))
 
 #_(defn sort-message->output-channel [])
 ;(incoming-message "0234" "01724" "hello test")
 
 ;TODO replace print-message with channel redirection based on number
+;TODO remove print-message function
 (defn monitor-messages []
   (println "monitoring for messages…")
   (loop []
     (when-let [next-message (rcv incoming-queue)]
       (fiber (snd outgoing-queue next-message))
-      (print-message next-message)
-      #_(println (str "is outgoing-queue open?" (closed? outgoing-queue))))
+      (print-message next-message))
     (recur)))
 
 (defn outgoing-messages [src]
-  ;TODO problem here is message needs to be of type map and not record
-  ;TODO must be better way as works sometimes and others not
-  ;TODO crashes all the itme, why?
-  (when-let [#_(message #(rcv-into {} outgoing-queue 1))
-             message-fiber (spawn-fiber #(rcv-into {} outgoing-queue 1))]
-    (print-message message-fiber)
-    (join message-fiber))
-  #_(println (join
-               (spawn-fiber (loop [coll []]
-                              (recur
-                                (when-let [message (rcv-into [] outgoing-queue 1)]
-                                  (conj coll (map Message->map message)))))))))
+  (loop [coll []]
+    (when-let [message-fiber (spawn-fiber #(rcv outgoing-queue 100 :ms))]
+      (let [new-message (join message-fiber)]
+        (if (empty? new-message)
+          (generate-string coll {:pretty true})
+          (recur (conj coll (generate-string new-message {:pretty true}))))))))
+
 ;;;;
 ;;input/output testing
 ;;;;
-(defn print-message [message]
-  (let [{:keys [src dest body]} message]
-    (println "printing… " src dest body "\n")))
-
-#_(def test-message-system
-    (do
-      (incoming-message "086" "087" "hello")
-      (fiber
-        (let [message (rcv incoming-queue)]
-          (println message)
-          (print-message message)))))
+(defn print-message [available-message]
+  (let [{:keys [src dest message]} available-message]
+    (println "printing… " src dest message "\n")))
 
 ;;;;
 ;;end of testing
