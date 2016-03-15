@@ -29,8 +29,8 @@
   (start-server port))
 
 (defn -main [& [port]]
-  (let [port (Integer. ^Integer (or port (env :port) 3033))
-        server (fiber (start-server port))
+  (let [port    (Integer. ^Integer (or port (env :port) 3033))
+        server  (fiber (start-server port))
         monitor (spawn-fiber sms-application.message-handler/monitor-messages)]
     (join monitor)
     (join server)))
