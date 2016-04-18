@@ -1,5 +1,4 @@
 (ns sms-application.api
-  #_(:use [bidi.bidi])
   (:require [bidi.ring :as ring]
             [bidi.bidi :refer [path-for match-route]]
             [ring.middleware.params :as params]
