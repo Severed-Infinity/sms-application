@@ -22,9 +22,10 @@
                      (clojure.walk/keywordize-keys (:multipart-params req))
                      :timestamp (time/now {:type Date})))]
      #_(print-message message)
-     (fiber (snd incoming-queue message)))))
+     (fiber (snd incoming-queue message))
+     (generate-string message))))
 
-(defn sort-message [message]
+(defn- sort-message [message]
   (if (contains? @output-channels-list (:dest message))
     (let [contact (get @output-channels-list (:dest message))]
       (fiber (snd contact message)))
@@ -53,8 +54,8 @@
             #_(println (closed? out-chan))
             (swap! output-channels-list dissoc (:user src))
             (generate-string coll))
-          (recur (conj coll (generate-string new-message)
-                       ) out-chan))))))
+          (recur (conj coll (generate-string new-message))
+                 out-chan))))))
 
 ;;;;
 ;;input/output testing

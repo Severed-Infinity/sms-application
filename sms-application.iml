@@ -18,7 +18,7 @@
     <orderEntry type="library" name="Leiningen: cheshire:5.5.0" level="project" />
     <orderEntry type="library" name="Leiningen: clj-time:0.9.0" level="project" />
     <orderEntry type="library" name="Leiningen: clj-tuple:0.2.1" level="project" />
-    <orderEntry type="library" name="Leiningen: clojure-complete:0.2.3" level="project" />
+    <orderEntry type="library" name="Leiningen: clojure-complete:0.2.4" level="project" />
     <orderEntry type="library" name="Leiningen: co.paralleluniverse/comsat-httpkit:0.5.0" level="project" />
     <orderEntry type="library" name="Leiningen: co.paralleluniverse/pulsar:0.7.4" level="project" />
     <orderEntry type="library" name="Leiningen: co.paralleluniverse/quasar-actors:0.7.4" level="project" />
@@ -81,7 +81,7 @@
     <orderEntry type="library" name="Leiningen: org.clojure/tools.logging:0.3.1" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/tools.macro:0.1.1" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/tools.namespace:0.2.5" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/tools.nrepl:0.2.10" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/tools.nrepl:0.2.12" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/tools.reader:0.9.1" level="project" />
     <orderEntry type="library" name="Leiningen: org.flatland/useful:0.11.3" level="project" />
     <orderEntry type="library" name="Leiningen: org.hdrhistogram/HdrHistogram:2.1.8" level="project" />

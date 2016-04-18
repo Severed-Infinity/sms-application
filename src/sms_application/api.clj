@@ -14,15 +14,14 @@
 ;replace /user/[number] with a token
 (def api-routes
   ["/" {["user/" [#"(0|\+353|353)(83|85|86|87|88|89)\d{7}" :user] "/"]
-                           {"message"  {:post :send-message}
-                            "messages" {:get :get-messages}}
-                      true :not-found}])
+             {"message"  {:post :send-message}
+              "messages" {:get :get-messages}}
+        true :not-found}])
 
 ;TODO look at some how using interceptors
 (def api-handler
   {:get-messages (fn [req] {:status 200 :body (outgoing-messages (:route-params req))})
-   :send-message (fn [req] (incoming-message req)
-                   {:status 200 :body (str "sent message " (:multipart-params req))})
+   :send-message (fn [req] {:status 200 :body (incoming-message req)})
    :not-found    (fn [req] {:status 404 :body (str "not-found {:uri \"" (:uri req) "\"}")})})
 
 (defn key-handler [api-key] (get api-handler api-key))
