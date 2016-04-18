@@ -14,8 +14,8 @@
 ;replace /user/[number] with a token
 (def api-routes
   ["/" {["user/" [#"(0|\+353|353)(83|85|86|87|88|89)\d{7}" :user] "/"]
-             {"message"  {:post :send-message}
-              "messages" {:get :get-messages}}
+        {"message"  {:post :send-message}
+         "messages" {:get :get-messages}}
         true :not-found}])
 
 ;TODO look at some how using interceptors
