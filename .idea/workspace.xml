@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb35e450-fe66-4412-8c2f-6f3b818b9b5f" name="Default" comment="Added timestamp to messages and had send-message post to return the message if successfully sent">
+    <list default="true" id="bb35e450-fe66-4412-8c2f-6f3b818b9b5f" name="Default" comment="fixed the api-routes bad-formatting">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sms_application/api.clj" afterPath="$PROJECT_DIR$/src/sms_application/api.clj" />
     </list>
     <ignored path="sms-application.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -868,7 +867,7 @@
       <workItem from="1460631507273" duration="361000" />
       <workItem from="1460757610504" duration="666000" />
       <workItem from="1460807597073" duration="144000" />
-      <workItem from="1460982513469" duration="814000" />
+      <workItem from="1460982513469" duration="975000" />
     </task>
     <task id="LOCAL-00001" summary="fresh start">
       <created>1448812360759</created>
@@ -1092,11 +1091,17 @@
       <option name="project" value="LOCAL" />
       <updated>1460989304861</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="fixed the api-routes bad-formatting">
+      <created>1460989623529</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1460989623529</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203204000" />
+    <option name="totallyTimeSpent" value="203365000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1200,7 +1205,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="added basic environ support with port environmental variable" />
     <MESSAGE value="message-monitoring and server running side by side and independantly.&#10;&#10;added todo's to project&#10;&#10;" />
     <MESSAGE value="removed empty lines and commented lines/functions no longer needed.&#10;&#10;added meta tag to port to let it know the argument is an integer" />
     <MESSAGE value="added Procfiel for heroku" />
@@ -1225,10 +1229,9 @@
     <MESSAGE value="added while to the end of main as means to keep it running" />
     <MESSAGE value="Cleared a bunch of TODO's&#10;Added support for user specific message retrival&#10;Added a message sorting system to correct output&#10;Removed dead code." />
     <MESSAGE value="Added timestamp to messages and had send-message post to return the message if successfully sent" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added timestamp to messages and had send-message post to return the message if successfully sent" />
+    <MESSAGE value="fixed the api-routes bad-formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the api-routes bad-formatting" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
