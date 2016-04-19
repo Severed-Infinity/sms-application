@@ -1,6 +1,6 @@
 (ns sms-application.message-handler
   (:gen-class)
-  (:require [cheshire.core :refer :all]
+  (:require [cheshire.core :refer [generate-string]]
             [hara.time :as time]
             [sms-application.utilities :as util])
   (:use [co.paralleluniverse.pulsar core])
