@@ -20,7 +20,7 @@
 ;TODO look at some how using interceptors
 (def api-handler
   {:get-messages (fn [req] {:status 200 :body (outgoing-messages (:route-params req))})
-   :send-message (fn [req] {:status 200 :body (incoming-message req)})
+   :send-message (fn [req] {:status 201 :body (incoming-message req)})
    :not-found    (fn [req] {:status 404 :body (str "not-found {:uri \"" (:uri req) "\"}")})})
 
 (defn key-handler [api-key] (get api-handler api-key))
