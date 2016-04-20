@@ -11,7 +11,8 @@
                  [cheshire "5.6.1"]
                  [environ "1.0.2"]
                  [ring/ring-core "1.4.0"]
-                 [im.chit/hara.time "2.2.17"]
+                 #_[im.chit/hara.time "2.2.17"]
+                 [clj-time "0.11.0"]
                  ;requirement for ring multipart
                  [javax.servlet/servlet-api "2.5"]]
   :plugins [[lein-environ "1.0.2"]]

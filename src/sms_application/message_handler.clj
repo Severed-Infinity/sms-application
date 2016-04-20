@@ -1,8 +1,9 @@
 (ns sms-application.message-handler
   (:gen-class)
   (:require [cheshire.core :refer [generate-string]]
-            [hara.time :as time]
-            [sms-application.utilities :as util])
+    #_[hara.time :as time
+            [clj-time.local :as l]
+            [sms-application.utilities :as util]])
   (:use [co.paralleluniverse.pulsar core])
   (:refer-clojure :exclude [await promise])
   (:import (java.util Date)))
@@ -21,7 +22,10 @@
    (let [message (map->Message
                    (assoc
                      (clojure.walk/keywordize-keys (:multipart-params req))
-                     :timestamp (time/now {:type Date})))]
+                     :timestamp (l/local-now)
+                     #_(time/now
+                         {:type
+                          Date})))]
      (fiber (snd incoming-queue message))
      (generate-string message))))
 
