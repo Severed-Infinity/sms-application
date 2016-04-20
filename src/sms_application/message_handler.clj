@@ -1,9 +1,9 @@
 (ns sms-application.message-handler
   (:gen-class)
   (:require [cheshire.core :refer [generate-string]]
-    #_[hara.time :as time
+            #_[hara.time :as time]
             [clj-time.local :as l]
-            [sms-application.utilities :as util]])
+            [sms-application.utilities :as util])
   (:use [co.paralleluniverse.pulsar core])
   (:refer-clojure :exclude [await promise])
   (:import (java.util Date)))
