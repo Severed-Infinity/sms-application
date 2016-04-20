@@ -1,8 +1,8 @@
 (ns sms-application.message-handler
   (:gen-class)
   (:require [cheshire.core :refer [generate-string]]
-            #_[hara.time :as time]
-            [clj-time.local :as l]
+            [clj-time [local :as l]
+             [coerce :as c]]
             [sms-application.utilities :as util])
   (:use [co.paralleluniverse.pulsar core])
   (:refer-clojure :exclude [await promise])
@@ -22,7 +22,7 @@
    (let [message (map->Message
                    (assoc
                      (clojure.walk/keywordize-keys (:multipart-params req))
-                     :timestamp (l/local-now)
+                     :timestamp (c/to-epoch (l/local-now))
                      #_(time/now
                          {:type
                           Date})))]
