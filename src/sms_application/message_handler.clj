@@ -1,7 +1,8 @@
 (ns sms-application.message-handler
   (:gen-class)
-  (:require [cheshire.core :refer :all]
-            [hara.time :as time])
+  (:require [cheshire.core :refer [generate-string]]
+            [hara.time :as time]
+            [sms-application.utilities :as util])
   (:use [co.paralleluniverse.pulsar core])
   (:refer-clojure :exclude [await promise])
   (:import (java.util Date)))
@@ -21,7 +22,6 @@
                    (assoc
                      (clojure.walk/keywordize-keys (:multipart-params req))
                      :timestamp (time/now {:type Date})))]
-     #_(print-message message)
      (fiber (snd incoming-queue message))
      (generate-string message))))
 
@@ -31,8 +31,7 @@
       (fiber (snd contact message)))
     (let [out-chan (channel -1)]
       (fiber (snd out-chan message))
-      (swap! output-channels-list assoc (:dest message) out-chan)))
-  #_(println @output-channels-list))
+      (swap! output-channels-list assoc (:dest message) out-chan))))
 
 (defn monitor-messages []
   (println "monitoring for messages…")
@@ -42,20 +41,21 @@
     (recur)))
 
 (defn outgoing-messages [src]
-  #_(println "request route-params" src)
-  (loop [coll     []
-         out-chan (or (get @output-channels-list (:user src))
-                      (channel))]
-    (when-let [message-fiber (spawn-fiber #(rcv out-chan 100 :ms))]
-      (let [new-message (join message-fiber)]
-        (if (empty? new-message)
-          (do
-            (close! out-chan)
-            #_(println (closed? out-chan))
-            (swap! output-channels-list dissoc (:user src))
-            (generate-string coll))
-          (recur (conj coll (generate-string new-message))
-                 out-chan))))))
+  (let [return (loop [coll     []
+                      out-chan (or (get @output-channels-list (:user src))
+                                   (channel))]
+                 (when-let [message-fiber (spawn-fiber #(rcv out-chan 100 :ms))]
+                   (let [new-message (join message-fiber)]
+                     (if (empty? new-message)
+                       (do
+                         (close! out-chan)
+                         #_(println (closed? out-chan))
+                         (swap! output-channels-list dissoc (:user src))
+                         coll)
+                       (recur (conj coll new-message)
+                              out-chan)))))
+        output (util/format-messages return)]
+    (generate-string #_(assoc {} :messages) output)))
 
 ;;;;
 ;;input/output testing
